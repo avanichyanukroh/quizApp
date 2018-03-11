@@ -7,7 +7,8 @@ function questionTemplate() {
     return `<div class="questions col-12">
     <h2>${STORE[questionNumber].question}</h2>
     <form>
-    <fieldset>
+    <fieldset role="radiogroup">
+    <legend>users answer</legend>
     <label class="answerOption col-6">
     <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
     <span>${STORE[questionNumber].answers[0]}</span>

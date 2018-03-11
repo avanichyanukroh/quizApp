@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Russo One', sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
     background: url('http://walops.com/wp-content/uploads/Dark-Pattern-High-Resolution-Wallpaper.jpg') fixed;
     background-position: center;
     color: #BABAB9;
@@ -82,6 +82,9 @@ button:hover, button:focus {
     color: #ebca52;
 }
 
+legend {
+  display: none;
+}
 
 .questionAnswerForm {
     display: none;
