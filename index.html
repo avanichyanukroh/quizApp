@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Test your video game knowledge">
+    <title>Video Gamer Trivia</title>
+    
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="datastore.js"></script>
+    <script src="index.js"></script>
+    
+  </head>
+  <body>
+    <header role="banner" class="row">
+      <div>
+        <a href="index.html">
+          <img class="home-button" src="https://lh3.googleusercontent.com/2wiNn_dLpNG5h_ar0Se87Kt94gXm0oLCRYXnuUKS-usxK2GuPNnVngUxspJM6JUIKek=w300" alt="controller icon"/>
+        </a>
+      </div>
+      <div class="status">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+          <li>Rank: <span class="rank">Bronze</span></li>
+        </ul>
+      </div>
+    </header>
+        <main role="main">
+      <div class="quizStart col-12">
+        <h1>Test your video game knowledge!</h1>
+        <button type="button" class="startButton">Start</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+    </main>
+  </body>
+</html>
